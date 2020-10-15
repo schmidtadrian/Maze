@@ -26,7 +26,6 @@ class Maze(tk.Canvas):
         self.parent          = parent
         self.stack           = []
         self.solution        = {}
-        self.current         = None
         self.job             = None
         self.current         = self.start
         self.current.visited = True

@@ -1,0 +1,28 @@
+# Window Title
+WINDOW_TITLE = "Maze"
+
+# Animation
+ANIMATION_DELAY   = 50
+DEFAULT_SHOW_GRID = True
+
+# Maze size limitation (in cells)
+MIN_COLUMNS = 2
+MAX_COLUMNS = 50
+MIN_ROWS    = MIN_COLUMNS
+MAX_ROWS    = MAX_COLUMNS
+
+# Colors
+COLOR_VISITED = "#388E3C"
+COLOR_CURRENT = "#CDDC39"
+COLOR_PLAYER  = "#D32F2F"
+COLOR_SOLVE   = "#757575"
+
+# Spacings & Sizes
+PADDING    = 10
+CELL_WIDTH = 15
+
+# For clarity in code
+TOP_WALL    = 0
+RIGHT_WALL  = 1
+BOTTOM_WALL = 2
+LEFT_WALL   = 3
